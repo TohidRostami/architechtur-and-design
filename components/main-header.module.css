@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 25px 30px;
+    font-size: 0.75rem;
+    background-color: rgba(0,0,0,60%);
+}
+
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 1.7rem;
+    font-weight: 300;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    color: lightgray;
+}
+
+.home{
+    font-weight: 500;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+}
